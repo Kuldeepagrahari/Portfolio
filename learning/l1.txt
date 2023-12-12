@@ -1,0 +1,9 @@
+git clone  --single-branch -b starter https://github.com/safak/animated-portfolio.git .
+->to clone 
+git clone: This is the Git command used to clone a repository.
+
+--single-branch: This option is used to clone only a single branch of the repository. In this case, it limits the clone to only the specified branch.
+
+-b starter: This option specifies the branch to be cloned. In this example, the branch is named "starter."
+
+https://github.com/safak/animated-portfolio.git: This is the URL of the Git repository you want to clone.

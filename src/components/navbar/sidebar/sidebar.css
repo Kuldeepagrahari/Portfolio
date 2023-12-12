@@ -1,0 +1,49 @@
+/* .sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    position:fixed;
+}
+
+.hammenu{
+ position:fixed;
+ top:0;
+ left:0;
+ bottom: 0;
+ width:300px;
+ background-color: white;
+}
+.side-links a{
+    text-decoration: none;
+    color: blueviolet;
+} */
+/* Sidebar.css */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    position: fixed;  /* Set the position to fixed */
+
+    z-index: 1000;  /* Set a higher z-index to make sure it's above other content */
+}
+
+.hammenu {
+    position: fixed;  /* Set the position to fixed */
+    top: 0;  /* Position from the top of the viewport */
+    left: 0;  /* Position from the left of the viewport */
+    bottom: 0;  /* Position from the bottom of the viewport */
+    width: 300px;
+    background-color: white;
+}
+
+.side-links a {
+    text-decoration: none;
+    color: blueviolet;
+}

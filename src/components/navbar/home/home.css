@@ -1,0 +1,77 @@
+.home{
+    height: 82vh;
+    margin-bottom: 100px;
+    background :linear-gradient(180deg, #0c0c1d,#111132);
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.home .my img{
+
+    height: 90vh;
+    width: 60vh;
+    /* border-radius: 50%; */
+    right:20vw;
+    /* border: 5px dashed white ; */
+    position: absolute;
+    right: 0;
+    top:0;
+    margin-top: 50px;
+}
+.content span{
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: rgb(179, 120, 222);
+}
+h1{
+    font-size: 80px;
+  
+    /* color: aqua; */
+}
+.btns{
+display: flex;
+gap:20px;
+}
+.b1 ,.b2{
+    font-size: 15px;
+    height: 50px;
+    padding:10px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.b1{
+    background-color: transparent;
+    border: 1px solid white;
+  color:white;
+}
+.scroll img{
+    margin-top:-10px;
+    width:50px;
+    height:60px;
+    /* position: absolute; */
+}
+.wrapper{
+    
+max-width: 1366px;
+min-height: 100%;
+margin:auto;
+}
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:40px;
+
+}
+/* .sliding-cont{
+    position: absolute;
+    font-size: 50vh;
+    bottom: -100px;
+    white-space: nowrap;
+    color: rgb(74, 70, 70);
+} */

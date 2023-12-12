@@ -1,0 +1,44 @@
+.nav{
+    height: 100px;
+    background-color: #0c0c1d;
+   
+}
+.wrapper{
+   
+    display:flex;
+    align-items: center;
+    max-width: 1366px;
+    margin: auto;
+    justify-content: space-around;
+    height:100%;
+    /* position: relative; */
+}
+.social{
+    display: flex;
+    gap:20px;
+ 
+
+}
+img{
+    width: 18px;
+    height: 18px;
+}
+
+span{
+    font-weight:bold ;
+}
+/* .course{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width:200px;
+    height: 200px;
+    background-color: azure;
+   /* transform: ; */
+/* } */
+/* .side{
+    position: absolute;
+}  */

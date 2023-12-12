@@ -1,0 +1,34 @@
+html{
+/* The CSS property `scroll-snap-type: mandatory;` is used to specify that the scrolling behavior
+should snap to the nearest scroll snap point during scrolling. This means that when the user
+scrolls, the content will automatically snap to a specific position, typically aligned with the
+start or end of a section or element. */
+scroll-snap-type: mandatory;
+/* The CSS property `scroll-behavior: smooth;` is used to specify the scrolling behavior when
+navigating to an anchor link or using the `scrollIntoView()` method in JavaScript. When this
+property is applied, the scrolling motion will be smooth and animated, providing a more visually
+pleasing experience for the user. */
+scroll-behavior: smooth;
+}
+*{
+    /* The CSS property `box-sizing: border-box;` is used to control how the width and height of an
+    element are calculated. By default, the width and height of an element are calculated based on
+    its content, padding, and border. However, when `box-sizing: border-box;` is applied, the width
+    and height of the element include the padding and border, but not the margin. This means that
+    the total width and height of the element will be the specified width and height, including any
+    padding and border, without affecting the layout of other elements on the page. */
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+}
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+    /* position: relative; */
+}
+body{
+    background-color: black;
+    color: lightgray;
+    position: relative;
+}
