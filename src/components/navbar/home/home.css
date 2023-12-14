@@ -4,6 +4,8 @@
     background :linear-gradient(180deg, #0c0c1d,#111132);
     /* position: relative; */
     display: flex;
+    z-index: 0;
+    /* opacity:1; */
     align-items: center;
     justify-content: space-around;
     /* position: relative; */
@@ -33,6 +35,7 @@ h1{
 .btns{
 display: flex;
 gap:20px;
+/* opacity: 2; */
 }
 .b1 ,.b2{
     font-size: 15px;
@@ -42,16 +45,20 @@ gap:20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* position: absolute; */
+    position: relative;
+    /* opacity: 2; */
+    z-index: 2;
     
 }
 .b2{
     font-weight: bolder;
+    /* opacity: ; */
 }
 .b1{
-    background-color: transparent;
+    background-color: #111132;
     border: 1px solid white;
   color:white;
+  /* opacity: 2; */
 }
 .scroll img{
     margin-top:-10px;
@@ -70,19 +77,23 @@ margin:auto;
 }
 .content{
     height: 100%;
-    position: absolute;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap:40px;
+  
 
 }
 .sliding-cont{
     position: absolute;
     font-size: 40vh;
-    top:210px;
+    top:310px;
+    opacity: 0.2;
+    width: 50%;
+    font-weight:bold;
     /* bottom: px; */
     white-space: nowrap;
-    color: rgb(84, 50, 91);
+    color: rgb(102, 69, 109);
 
 }

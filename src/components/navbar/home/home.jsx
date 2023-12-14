@@ -23,6 +23,24 @@ transition:{
       }
     }
 };
+
+const slidervariant={
+  initial:{
+      x:0,
+      // opacity:0
+  },
+  animate:{
+x:"-400%",
+// opacity:1,
+transition:{
+  duration:20,
+  repeatType:"mirror"
+,  repeat:Infinity
+  // staggerChildren:0.1
+}
+  },
+ 
+};
 const Home = () => {
   return (
     <div className='home'>
@@ -38,9 +56,9 @@ const Home = () => {
         </motion.div>
        <motion.div variants={textvariant} animate="scroller" className='scroll'> <img src="https://img.icons8.com/?size=160&id=kZ8cCNztjcoE&format=png" ></img></motion.div>
       </motion.div></div>
-      <div className="sliding-cont">
+      <motion.div className="sliding-cont" variants={slidervariant} initial="initial" animate="animate">
         Problem Solver Mentor Learner
-        </div>
+        </motion.div>
         <div className='my'>
       <motion.img variants={textvariant} src="/myphoto.png" alt="4"></motion.img>
     </div></div>
