@@ -22,6 +22,7 @@ color: rgb(221, 218, 224);
     align-items: center;
     justify-content: center;
     position: absolute;
+    z-index: 3;
 }
 .planets{
     background-image: url("./planets.png");
@@ -33,6 +34,7 @@ color: rgb(221, 218, 224);
     align-items: center;
     justify-content: center;
     position: absolute;
+    z-index: 2;
 }
 .stars{
     background-image: url("./stars.png");
@@ -44,4 +46,5 @@ color: rgb(221, 218, 224);
     align-items: center;
     justify-content: center;
     position: absolute;
+    z-index: 1;
 }

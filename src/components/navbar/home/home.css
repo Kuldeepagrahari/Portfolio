@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* position: relative; */
 }
 .home .my img{
 
@@ -41,7 +42,11 @@ gap:20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* position: absolute; */
     
+}
+.b2{
+    font-weight: bolder;
 }
 .b1{
     background-color: transparent;
@@ -54,6 +59,9 @@ gap:20px;
     height:60px;
     /* position: absolute; */
 }
+.b1:hover{
+    transform:scale(1.1) ;
+}
 .wrapper{
     
 max-width: 1366px;
@@ -62,16 +70,19 @@ margin:auto;
 }
 .content{
     height: 100%;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap:40px;
 
 }
-/* .sliding-cont{
+.sliding-cont{
     position: absolute;
-    font-size: 50vh;
-    bottom: -100px;
+    font-size: 40vh;
+    top:210px;
+    /* bottom: px; */
     white-space: nowrap;
-    color: rgb(74, 70, 70);
-} */
+    color: rgb(84, 50, 91);
+
+}

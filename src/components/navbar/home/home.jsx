@@ -38,9 +38,9 @@ const Home = () => {
         </motion.div>
        <motion.div variants={textvariant} animate="scroller" className='scroll'> <img src="https://img.icons8.com/?size=160&id=kZ8cCNztjcoE&format=png" ></img></motion.div>
       </motion.div></div>
-      {/* <div className="sliding-cont">
+      <div className="sliding-cont">
         Problem Solver Mentor Learner
-        </div> */}
+        </div>
         <div className='my'>
       <motion.img variants={textvariant} src="/myphoto.png" alt="4"></motion.img>
     </div></div>

@@ -41,6 +41,7 @@
     bottom: 0;  /* Position from the bottom of the viewport */
     width: 300px;
     background-color: white;
+    /* border-right: 5px dashed rgb(192, 43, 226); */
 }
 
 .side-links a {

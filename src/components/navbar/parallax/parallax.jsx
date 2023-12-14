@@ -12,7 +12,7 @@ const Parallax = ({type}) => {
     "linear-gradient(180deg , #111132,#505064)"
     }}>
 
-<h1>{type==="services" ? "What we Do" : "What we Did"}</h1>
+<h1>{type==="services" ? "SKILLS" : "What we Did"}</h1>
     <div className="mountains">  </div>
     <div className="planets"></div>
     <div className="stars"></div>
